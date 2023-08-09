@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppButtonStyle">
+        <item name="android:color">@color/darkPurple</item>
+    </style>
+</resources>

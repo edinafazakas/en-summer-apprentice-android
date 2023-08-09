@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:background="@color/main_bar"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@color/main_bar"
+        android:id="@+id/eventCardLayout"
+        android:orientation="vertical"
+        >
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/purple_detals_card"
+            android:elevation="0dp"
+            app:cardCornerRadius="12dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="420dp"
+                android:layout_marginLeft="15dp"
+                android:text="UNTOLD"
+                android:textColor="@color/darkPurple"
+                android:id="@+id/eventName"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="330dp"
+                android:text="Ticket Category:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="330dp"
+                android:layout_marginLeft="100dp"
+                android:text="Standard"
+                android:id="@+id/ticketCategory"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="300dp"
+                android:layout_marginLeft="10dp"
+                android:text="Number Of Tickets:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="300dp"
+                android:layout_marginLeft="115dp"
+                android:text="2"
+                android:id="@+id/numberOfTickets"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="270dp"
+                android:layout_marginLeft="10dp"
+                android:text="Ordered At:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="270dp"
+                android:layout_marginLeft="75dp"
+                android:text="2023-07-09"
+                android:id="@+id/orderedAt"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="240dp"
+                android:layout_marginLeft="10dp"
+                android:text="Location:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="240dp"
+                android:layout_marginLeft="65dp"
+                android:text="Cluj-Napoca"
+                android:id="@+id/locationVenue"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="210dp"
+                android:layout_marginLeft="10dp"
+                android:text="Total Price:"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="210dp"
+                android:layout_marginLeft="75dp"
+                android:text="2800"
+                android:id="@+id/totalPrice"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_marginBottom="210dp"
+                android:layout_marginLeft="110dp"
+                android:text="€"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</LinearLayout>

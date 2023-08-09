@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TMS</string>
+    <string name="events">Events</string>
+    <string name="dashboard_heading">Find the event you are looking for</string>
+    <string name="dashboard_subtitle">Fantastic events waiting for you</string>
+    <string name="search_bar">Type your event</string>
+    <string name="select_category">Select Ticket Category</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="shopping_cart">Shopping Cart</string>
+</resources>
